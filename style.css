@@ -7,10 +7,23 @@ body {
 }
 
 /* 头部样式 */
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  flex:0 0 auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.search-box {
+  flex: 0 0 auto;
 }
 
 /* 导航条 */
